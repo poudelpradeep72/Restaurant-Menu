@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_first{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#000;
+    margin: 3rem auto;
+    
+}
+
+.hello{
+    min-width: 10rem;
+    max-width: 30rem;
+    background-color: rgb(250, 10, 10);
+    margin: 3rem auto;
+    
+}
+
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+
+a{
+    text-decoration: none;
+   
+}
+
+/* First Part */
+li:nth-of-type(1){
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(240, 17, 17, 0.938);
+    
+}
+
+li:active{
+    background-color: rgb(14, 131, 131);
+}
+
+li:hover{
+    background-color: gray;
+}
+
+li:visited{
+    color:rgba(9, 135, 185, 0.904);
+    background-color: rgb(255, 17, 0);
+}
+
+
+/* Second Part */
+li:nth-of-type(2){
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(15, 247, 7, 0.904);
+}
+
+li:active{
+    background-color: rgb(255, 60, 0);
+}
+
+li:hover{
+    background-color: cornflowerblue;
+}
+
+li:visited{
+    color: black;
+}
+
+
+/* Third Part */
+li:nth-of-type(3){  
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(15, 37, 231, 0.904);
+}
+
+li:active{
+    background-color:darkblue;
+}
+
+li:hover{
+    background-color: aquamarine;
+}
+
+li:visited{
+    background-color: rgba(65, 167, 235, 0.877);
+}
+
+/* Fourth Part */
+li:nth-of-type(4){
+    color: black;
+    font-size: xx-large;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(177, 174, 12, 0.932);
+}
+
+li:active{
+    background-color: rgba(192, 93, 22, 0.856);
+}
+
+li:hover{
+    background-color: rgb(82, 139, 245);
+}
+
+li:visited{
+    background-color: greenyellow;
+}
+
+p{
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
